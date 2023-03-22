@@ -18,25 +18,15 @@
     flex-direction: column;
     transition:  0.2s ease-in-out;
     justify-content: center;
-    align-items: center;
   }
   .card:hover {
     transform: translateY(-5px);
     box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
-    transition: all 0.2 ease-in-out;
   }
-
   .card p {
     margin: 5px;
     font-size: 16px;
     font-weight: bold;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
   }
-  
-  .card p:first-of-type {
-    font-size: 22px;
-  }
-
-

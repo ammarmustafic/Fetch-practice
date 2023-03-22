@@ -2,7 +2,9 @@ let params = new URLSearchParams(window.location.search);
 let categoryId = params.get("id");
 
 async function getRandomJoke(category) {
-  let jokeResponse = await fetch(`https://api.chucknorris.io/jokes/random?category=${category}`);
+  let jokeResponse = await fetch(
+    `https://api.chucknorris.io/jokes/random?category=${category}`
+  );
   let jokeData = await jokeResponse.json();
   return jokeData;
 }
