@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7f7f7;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #444;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.nesto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 250px;
+  margin: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.nesto:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.nesto img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.nesto p {
+  margin-top: 10px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+#search-input {
+  width: 60%;
+}
+
+
+#search-input {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  font-size: 16px;
+}
+
+#search-button {
+  height: 40px;
+  width: 80px;
+  background-color: #2980b9;
+  color: #fff;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#search-button:hover {
+  background-color: #2c3e50;
+}
